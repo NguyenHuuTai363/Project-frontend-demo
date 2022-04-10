@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.header-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+.logo h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cart {
+    text-align: right;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.cart h1 {
+    font-size: 18px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+ul li a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    margin-top: 4.5rem;
+}
+
+.introduce-text {
+    line-height: 25px;
+}
+
+.container h5 {
+    font-size: 17px;
+}
+
+.container h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-title-box {
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title-box .card {
+    margin: 10px;
+}
+
+.vanchuyen {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.vanchuyen-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+    padding: 20px;
+    margin: 15px;
+    flex-grow: 0.7;
+}
+
+.vanchuyen-box i {
+    color: #FF6600;
+    font-size: 2rem;
+    margin: 15px;
+}
+
+.vanchuyen-box span {
+    color: #222222;
+    font-weight: 600;
+    letter-spacing: 0.5;
+    font-size: 1rem;
+}
+
+.vanchuyen-box p {
+    color: #878787;
+    margin: 0px;
+    font-size: .9rem;
+}
+
+.footer-infor {
+    width: 100%;
+    background-color: #222222;
+}
+
+.footer-container {
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-container h3 {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer-container h5 {
+    font-size: 15px;
+    color: #ffffff;
+}
