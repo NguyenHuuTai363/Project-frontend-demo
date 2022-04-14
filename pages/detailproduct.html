@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=hea, initial-scale=1.0">
     <link rel="stylesheet" href="../pages_css/home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../pages_css/detailproduct.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../pages_css/font-awesome.css">
     <link rel="stylesheet" href="../pages_css/detailproduct.css">
     <link rel="stylesheet " href="../bootstrap/bootstap_min.css ">
-    <title>Document</title>
+    <title>Chi tiết sản phẩm</title>
 </head>
 
 <body>
+    <!-- Logo và thanh menu cũ -->
     <header>
         <!-- <div class="logo ">
             <h1>MEGA STORE</h1>
@@ -87,72 +90,206 @@
         </nav>
         <!--  -->
     </header>
-    <!--  -->
+    <!-- Thông tin sản phẩm -->
     <main>
         <div class="product">
-            <!-- <div class="container-product">
-                <div class="row">
-                    <div class="col order-last" style="width:600px;">
-                        <h2 class="product-title">Nội thất phòng ăn</h2>
-                        <div class="product-price">
-                            <p class="last-price">Giá niêm yết: <span>$249.00 (5%)</span></p>
-                            <p class="new-price">Giá khuyến mãi: <span>$249.00 (5%)</span></p>
-                        </div>
-                        <div class="product-detail">
-                            <ul>
-                                <li>Màu sắc: <span></span></li>
-                                <li>Chất liệu: <span></span></li>
-                                <li>Kích thước: <span></span></li>
-                                <li>Xuất xứ: <span></span></li>
-                                <li>Phí giao hàng: <span>miễn phí</span></li>
-                            </ul>
-                        </div>
-                        <div class="col"><button>
-                            <a>Mua ngay</a>
-                        </button></div>
-                    </div>
-
-                    <div class="col order-first">
-                        <img src="../images/nha_bep.jpg" height="350px
-                    " width="100%" alt="">
-                    </div>
-                </div>
-            </div> -->
-            <div class="container mt-5 mb-5">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-10">
-                        <div class="card">
+            <div class="super_container">
+                <header class="header" style="display: none;">
+                    <div class="header_main">
+                        <div class="container">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <div class="images p-3">
-                                        <div class="text-center p-4"> <img id="main-image" src="../images/nha_bep.jpg" width="480"> </div>
-                                        <!-- <div class="thumbnail text-center"> <img onclick="change_image(this)" src="../images/anh_gioi_thieu_1.jpg" width="70"> <img onclick="change_image(this)" src="https://i.imgur.com/Dhebu4F.jpg" width="70"> </div> -->
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="product p-4">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex align-items-center"> <i class="fa fa-long-arrow-left"></i> <span class="ml-1">Back</span> </div> <i class="fa fa-shopping-cart text-muted"></i>
-                                        </div>
-                                        <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">Orianz</span>
-                                            <h5 class="text-uppercase">Men's slim fit t-shirt</h5>
-                                            <div class="price d-flex flex-row align-items-center"> <span class="act-price">$20</span>
-                                                <div class="ml-2"> <small class="dis-price">$59</small> <span>40% OFF</span> </div>
+                                <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                                    <div class="header_search">
+                                        <div class="header_search_content">
+                                            <div class="header_search_form_container">
+                                                <form action="#" class="header_search_form clearfix">
+                                                    <div class="custom_dropdown">
+                                                        <div class="custom_dropdown_list"> <span class="custom_dropdown_placeholder clc">All Categories</span> <i class="fas fa-chevron-down"></i>
+                                                            <ul class="custom_list clc">
+                                                                <li><a class="clc" href="#">All Categories</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
-                                        <p class="about">Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
-                                        <div class="sizes mt-5">
-                                            <h6 class="text-uppercase">Size</h6> <label class="radio"> <input type="radio" name="size" value="S" checked> <span>S</span> </label> <label class="radio"> <input type="radio" name="size" value="M"> <span>M</span> </label> <label class="radio"> <input type="radio" name="size" value="L"> <span>L</span> </label>                                            <label class="radio"> <input type="radio" name="size" value="XL"> <span>XL</span> </label> <label class="radio"> <input type="radio" name="size" value="XXL"> <span>XXL</span> </label>
-                                        </div>
-                                        <div class="cart mt-4 align-items-center"> <button class="btn btn-danger text-uppercase mr-2 px-4">Add to cart</button> <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i> </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </header>
+                <div class="single_product">
+                    <div class="container-fluid" style=" background-color: #ffffff; padding: 11px;">
+                        <div class="row">
+
+                            <div class="col-lg-7 order-lg-2 order-1">
+                                <img src="../images/ban_an.jpg" width="100%" height="550px" alt="">
+                            </div>
+                            <div class="col-lg-5 order-3">
+                                <div class="product_description">
+                                    <nav>
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                                            <li class="breadcrumb-item active">Phòng ăn</li>
+                                        </ol>
+                                    </nav>
+                                    <div class="product_name">Bộ nội thất phòng bếp</div>
+                                    <div> <span class="product_price">Giá: 58,990,000vnđ</span></div>
+
+                                    <hr class="singleline">
+                                    <div> <span class="product_info">Màu sắc:<span><br> <span class="product_info">Kích thước:<span><br> <span class="product_info">Chất liệu:<span><br> <span class="product_info">Xuất xứ:<span><br> <span class="product_info">Bảo hành: 36 tháng<span> </div>
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="br-dashed">
+                                                <div class="row">
+                                                    <div class="col-md-3 col-xs-3"> <img src="https://img.icons8.com/color/48/000000/price-tag.png"> </div>
+                                                    <div class="col-md-9 col-xs-9">
+                                                        <div class="pr-info"> <span class="break-all">Giảm 5% khi mua hàng online</span> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7"> </div>
+                </div>
+                <div class="row" style="margin-top: 15px;">
+                    <div class="col-xs-6" style="margin-left: 5x;"> <span class="product_options">Tình trạng sản phẩm:</span><br> <button class="btn btn-primary btn-sm">Mới 100%</button> <button class="btn btn-primary btn-sm">Hàng đổi trả còn mới 95%</button></div>
+
+                </div>
+            </div>
+            <hr class="singleline">
+            <div class="order_info d-flex flex-row">
+                <form action="#">
+            </div>
+            <div class="row">
+                <div class="col-xs-6" style="margin-left: 1px;">
+                    <div class="product_quantity"> <span>Số lượng: </span> <input id="quantity_input" type="text" pattern="[0-9]*" value="1">
+                        <div class="quantity_buttons">
+                            <div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i>
+                            </div>
+                            <div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fas fa-chevron-down"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6"> <button type="button" class="btn btn-primary shop-button">Thêm vào giỏ hàng</button> <button type="button" class="btn btn-success shop-button">Mua ngay</button>
+                    <div class="product_fav"><i class="fas fa-heart"></i></div>
                 </div>
             </div>
         </div>
+        </div>
+        </div>
+
+
+        <!-- Combo san pham -->
+        <div class="row row-underline">
+            <div class="col-md-6"> <span class=" deal-text">Các sản phẩm đi kèm</span> </div>
+            <div class="col-md-6">
+                <a href="#" data-abc="true"> <span class="ml-auto view-all"></span> </a>
+            </div>
+            <div class="card-title-box row">
+                <div class="card col-3" style="width: 18rem;">
+                    <img src="../images/ban_an_porto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bàn ăn Porto</h5>
+                        <a href="#" class="btn btn-primary">Mua ngay</a>
+                    </div>
+                </div>
+                <div class="card col-3" style="width: 18rem;">
+                    <img src="../images/ghe_an_porto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ghế ăn Porto</h5>
+                        <a href="#" class="btn btn-primary">Mua ngay</a>
+                    </div>
+                </div>
+                <div class="card col-3" style="width: 18rem;">
+                    <img src="../images/ghe-tay-porto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ghế có tay Porto</h5>
+                        <a href="#" class="btn btn-primary">Mua ngay</a>
+                    </div>
+                </div>
+                <div class="card col-3" style="width: 18rem;">
+                    <img src="../images/xe-day-do-an.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Xe đẩy đồ ăn</h5>
+                        <a href="#" class="btn btn-primary">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Chi tiết sản phẩm -->
+        <div class="row row-underline">
+            <div class="col-md-6"> <span class="deal-text">Chi tiết sản phẩm</span> </div>
+            <div class="col-md-6">
+                <a href="#" data-abc="true"> <span class="ml-auto view-all"></span> </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="col-md-12">
+                    <tbody>
+                        <tr class="row mt-10">
+                            <td class="col-md-4"><span class="p_specification">Mô tả :</span> </td>
+                            <td class="col-md-8">
+                                <ul>
+                                    <li>Thiết kế mang sắc màu hiện đại, được nhấn nhá với chất liệu kim loại mạ gold thời thượng là điểm nổi bật cho không gian phòng ăn Porto. Với màu sắc trầm, vân gỗ ấn tượng nhưng vẫn bừng sáng đầy sức sống, phòng ăn Porto
+                                        mang đến lựa chọn độc đáo và cá tính cho không gian căn hộ, nhà phố của bạn.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="row mt-10">
+                            <td class="col-md-4"><span class="p_specification">Mã sản phẩm :</span> </td>
+                            <td class="col-md-8">
+                                <ul>
+                                    <li> 14-dh0107TU </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="row mt-10">
+                            <td class="col-md-4"><span class="p_specification">Chất liệu :</span> </td>
+                            <td class="col-md-8">
+                                <ul>
+                                    <li>Gỗ, inox, Nệm bọc da công nghiệp</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="row mt-10">
+                            <td class="col-md-4"><span class="p_specification">Xuất xứ :</span> </td>
+                            <td class="col-md-8">
+                                <ul>
+                                    <li>Việt Nam</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="row mt-10">
+                            <td class="col-md-4"><span class="p_specification">Collection :</span> </td>
+                            <td class="col-md-8">
+                                <ul>
+                                    <li>Porto</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="row mt-10">
+                            <td class="col-md-4"><span class="p_specification">Bảo hành :</span> </td>
+                            <td class="col-md-8">
+                                <ul>
+                                    <li>36 tháng</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
         <!-- shipment -->
         <div class="vanchuyen ">
             <!--van-chuyen-->
@@ -217,6 +354,7 @@
     <script src="./bootstrap/bootstratp_bundle.js "></script>
     <script src="./bootstrap/bootstrap_popper.js "></script>
     <script src="./bootstrap/bootstrap_min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>
